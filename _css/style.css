@@ -5,7 +5,8 @@
 4. Main
 5. Header Text
 6. Top Meny
-7. Footer
+7. Row / Colums
+8. Footer
 
 Clear Fix
 */
@@ -199,7 +200,21 @@ header.major p {
     color: #484848;
 }
 
-/* 7. FOOTER */
+/* 7. ROWS / COLUMS */
+.row {
+    margin: 1em 0;
+}
+
+.row * {
+    float: left;
+}
+
+.row .p33 {
+    width: 33.3333333%;
+    padding: 1em 1em 0 0;
+}
+
+/* 8. FOOTER */
 #footer {
     padding: 8em 0 6em 0;
     background: #f6f6f6;
